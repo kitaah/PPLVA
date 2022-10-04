@@ -1,3 +1,4 @@
+<?php ?>
 <main>
     <section class="quiz__container">
         <article>
