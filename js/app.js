@@ -251,19 +251,19 @@ let questionsContent = [
     content: "Laquelle de ces attitudes n'est pas positive ?",
     answers: [
       {
-        content: "Développer mon assertivité",
+        content: "Développer son assertivité",
         isRight: false
       },
       {
-        content: "Imposer mes propres règles",
+        content: "Imposer ses propres règles",
         isRight: true
       },
       {
-        content: "M’imprégner de la culture d’entreprise",
+        content: "S’imprégner de la culture d’entreprise",
         isRight: false
       },
       {
-        content: "Faire le point avec mon manager",
+        content: "Faire le point avec son manager",
         isRight: false
       }
     ]
@@ -305,7 +305,7 @@ let questionsContent = [
         isRight: true
       },
       {
-        content: "Se montrer curieux et motivé",
+        content: "Faire preuve d'assurance",
         isRight: false
       }
     ]
@@ -392,7 +392,7 @@ document.addEventListener("question-chosen", ({ detail }) => {
 
   if (answeredQuestions == questions.length) {
     setTimeout(function () {
-      alert(`Quiz terminé ! 🚀🚀🚀 \nTon score est de ${score}/${questions.length}`);
+      alert(`Quiz terminé ! 😊 \nTon score est de ${score}/${questions.length}`);
     }, 200);
   }
 });
