@@ -141,217 +141,213 @@ let Question = function (questionObj) {
   }
 };
 
-//
-// main.js
-//
-
 let questionsContent = [
   {
-    content: "Quelle est la couleur du cheval blanc d'Henry IV ?",
+    content: "Concernant les codes en entreprise, il est important de… ",
     answers: [
       {
-        content: "Vert",
+        content: "Se montrer anarchiste",
         isRight: false
       },
       {
-        content: "Rouge",
+        content: "Apprendre le code Python",
+        isRight: false
+      },
+      {
+        content: "S’informer avant son intégration",
         isRight: true
       },
       {
-        content: "Bleu",
-        isRight: false
-      },
-      {
-        content: "Jaune",
+        content: "Connaître un bon avocat",
         isRight: false
       }
     ]
   },
   {
-    content: "Quelle est la couleur du cheval blanc d'Henry IV ?",
+    content: "Comment faire preuve de professionnalisme ? ",
     answers: [
       {
-        content: "Vert",
+        content: "Faire des selfies avec Chantal de la compta",
         isRight: false
       },
       {
-        content: "Rouge",
+        content: "Savourer de longues pauses café",
+        isRight: false
+      },
+      {
+        content: "Mentir pour se faire bien voir",
+        isRight: false
+      },
+      {
+        content: "Se montrer réactif et compétent",
+        isRight: true
+      }
+    ]
+  },
+  {
+    content: "Comment créer efficacement du lien social ?",
+    answers: [
+      {
+        content: "S’intéresser aux autres",
         isRight: true
       },
       {
-        content: "Bleu",
+        content: "Faire courir des rumeurs",
         isRight: false
       },
       {
-        content: "Jaune",
+        content: "Organiser un loup-garou en réunion",
+        isRight: false
+      },
+      {
+        content: "Jouer un rôle de gentil",
         isRight: false
       }
     ]
   },
   {
-    content: "Quelle est la couleur du cheval blanc d'Henry IV ?",
+    content: "Laquelle de ces propositions est vraie ? ",
     answers: [
       {
-        content: "Vert",
+        content: "Organisation, polyvalence et caprices",
         isRight: false
       },
       {
-        content: "Rouge",
+        content: "Ecoute, manipulation et ponctualité",
+        isRight: false
+      },
+      {
+        content: "Adaptation, curiosité et respect",
         isRight: true
       },
       {
-        content: "Bleu",
-        isRight: false
-      },
-      {
-        content: "Jaune",
+        content: "Amour, gloire et beauté",
         isRight: false
       }
     ]
   },
   {
-    content: "Quelle est la couleur du cheval blanc d'Henry IV ?",
+    content: "Avant d’être embauché, il est important de…",
     answers: [
       {
-        content: "Vert",
+        content: "Faire des faux diplômes",
         isRight: false
       },
       {
-        content: "Rouge",
+        content: "Décompresser en faisant du pilate",
+        isRight: false
+      },
+      {
+        content: "Séduire la RH lors de l’entretien",
+        isRight: false
+      },
+      {
+        content: "Négocier son contrat de travail",
+        isRight: true
+      }
+    ]
+  },
+  {
+    content: "Laquelle de ces attitudes n'est pas positive ?",
+    answers: [
+      {
+        content: "Développer mon assertivité",
+        isRight: false
+      },
+      {
+        content: "Imposer mes propres règles",
         isRight: true
       },
       {
-        content: "Bleu",
+        content: "M’imprégner de la culture d’entreprise",
         isRight: false
       },
       {
-        content: "Jaune",
+        content: "Faire le point avec mon manager",
         isRight: false
       }
     ]
   },
   {
-    content: "Quelle est la couleur du cheval blanc d'Henry IV ?",
+    content: "Qu’est-il important de faire avant l’envoi d’un email ?",
     answers: [
       {
-        content: "Vert",
-        isRight: false
-      },
-      {
-        content: "Rouge",
+        content: "Se relire pour éviter les fautes d’orthographe",
         isRight: true
       },
       {
-        content: "Bleu",
+        content: "Scotcher l’étiquette d’envoi",
         isRight: false
       },
       {
-        content: "Jaune",
+        content: "Vérifier sa connexion internet",
+        isRight: false
+      },
+      {
+        content: "Choisir le lieu d’expédition",
         isRight: false
       }
     ]
   },
   {
-    content: "Quelle est la couleur du cheval blanc d'Henry IV ?",
+    content: "Quel comportement vaut-il mieux éviter ?",
     answers: [
       {
-        content: "Vert",
+        content: "Ne pas hésiter à poser des questions",
         isRight: false
       },
       {
-        content: "Rouge",
+        content: "Avoir un style vestimentaire conforme",
+        isRight: false
+      },
+      {
+        content: "Être prêt à tout pour arriver à ses fins",
         isRight: true
       },
       {
-        content: "Bleu",
-        isRight: false
-      },
-      {
-        content: "Jaune",
+        content: "Se montrer curieux et motivé",
         isRight: false
       }
     ]
   },
   {
-    content: "Quelle est la couleur du cheval blanc d'Henry IV ?",
+    content: "Laquelle des ces propositions est vraie ?",
     answers: [
       {
-        content: "Vert",
+        content: "Savoir-vivre, écriture soignée, orgueil",
         isRight: false
       },
       {
-        content: "Rouge",
+        content: "Assurance, ouverture d’esprit, assertivité",
         isRight: true
       },
       {
-        content: "Bleu",
+        content: "Organisation, empathie, rivalité",
         isRight: false
       },
       {
-        content: "Jaune",
+        content: "Ecoute, agressivité, réactivité",
         isRight: false
       }
     ]
   },
   {
-    content: "Quelle est la couleur du cheval blanc d'Henry IV ?",
+    content: "Comment faire bonne impression dès son arrivée ?",
     answers: [
       {
-        content: "Vert",
+        content: "Faire un check à son employeur",
         isRight: false
       },
       {
-        content: "Rouge",
+        content: "Se montrer curieux, poli et souriant",
         isRight: true
       },
       {
-        content: "Bleu",
+        content: "Organiser un pot d'arrivée avec de la vodka",
         isRight: false
       },
       {
-        content: "Jaune",
-        isRight: false
-      }
-    ]
-  },
-  {
-    content: "Quelle est la couleur du cheval blanc d'Henry IV ?",
-    answers: [
-      {
-        content: "Vert",
-        isRight: false
-      },
-      {
-        content: "Rouge",
-        isRight: true
-      },
-      {
-        content: "Bleu",
-        isRight: false
-      },
-      {
-        content: "Jaune",
-        isRight: false
-      }
-    ]
-  },
-  {
-    content: "Quelle est la couleur du cheval blanc d'Henry IV ?",
-    answers: [
-      {
-        content: "Vert",
-        isRight: false
-      },
-      {
-        content: "Rouge",
-        isRight: true
-      },
-      {
-        content: "Bleu",
-        isRight: false
-      },
-      {
-        content: "Jaune",
+        content: "Réciter à voix haute le règlement intérieur",
         isRight: false
       }
     ]
@@ -401,4 +397,3 @@ document.addEventListener("question-chosen", ({ detail }) => {
   }
 });
 });
-
