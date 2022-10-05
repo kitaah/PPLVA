@@ -311,7 +311,7 @@ let questionsContent = [
     ]
   },
   {
-    content: "Laquelle des ces propositions est vraie ?",
+    content: "Laquelle de ces propositions est vraie ?",
     answers: [
       {
         content: "Savoir-vivre, écriture soignée, orgueil",
