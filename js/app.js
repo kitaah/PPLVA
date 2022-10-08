@@ -314,7 +314,7 @@ let questionsContent = [
     content: "Laquelle de ces propositions est vraie ?",
     answers: [
       {
-        content: "Savoir-vivre, écriture soignée, orgueil",
+        content: "Courtoisie, écriture soignée, orgueil",
         isRight: false
       },
       {
