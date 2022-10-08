@@ -32,7 +32,7 @@ html {
 
 @font-face {
     font-family: 'Roboto_regular';
-    src: url('../medias/fonts/Roboto_regular/Roboto_regular.ttf') format('truetype');
+    src: url('../medias/fonts/roboto_regular/roboto_regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
